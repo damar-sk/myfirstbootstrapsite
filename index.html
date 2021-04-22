@@ -9,49 +9,19 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <div class="container bg-primary">Container
-        <div class="row bg-secondary">
-            <div class="col-md-1 bg-info">Column1</div>
-      <div class="col-md-1 bg-info">Column2</div>
-      <div class="col-md-1 bg-info">Column3</div>
-      <div class="col-md-1 bg-info">Column4</div>
-      <div class="col-md-1 bg-info">Column5</div>
-      <div class="col-md-1 bg-info">Column6</div>
-      <div class="col-md-1 bg-info">Column7</div>
-      <div class="col-md-1 bg-info">Column8</div>
-      <div class="col-md-1 bg-info">Column9</div>
-      <div class="col-md-1 bg-info">Column10</div>
-      <div class="col-md-1 bg-info">Column11</div>
-      <div class="col-md-1 bg-info">Column12</div>
+    <header class="p-2 bg-dark text-white">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a id="mainbutton" onclick="showMainPage()" class="nav-link px-2 text-white">Home</a></li>
+            <li><a id="projectbutton" onclick="showProjectPage()"class="nav-link px-2 text-white">My Projects</a></li>
+            <li><a id="journalbutton" onclick="showJournalPage()" class="nav-link px-2 text-white">My Journal</a></li>
+          </ul>
         </div>
-    <div class="row bg-secondary">
-      <div class="col-md-2 bg-warning">Column1</div>
-      <div class="col-md-2 bg-warning">Column2</div>
-      <div class="col-md-2 bg-warning">Column3</div>
-      <div class="col-md-2 bg-warning">Column4</div>
-      <div class="col-md-2 bg-warning">Column5</div>
-      <div class="col-md-2 bg-warning">Column6</div>
-    </div>
-    <div class="row bg-secondary">
-      <div class="col-md-3 bg-danger">Column1</div>
-      <div class="col-md-3 bg-danger">Column2</div>
-      <div class="col-md-3 bg-danger">Column3</div>
-      <div class="col-md-3 bg-danger">Column4</div>
-    </div>
-    <div class="row bg-secondary">
-      <div class="col-md-4 bg-success">Column1</div>
-      <div class="col-md-4 bg-success">Column2</div>
-      <div class="col-md-4 bg-success">Column3</div>
-    </div>
-    <div class="row bg-secondary">
-      <div class="col-md-6 bg-info">Column1</div>
-      <div class="col-md-6 bg-info">Column2</div>
-    </div>
-    <div class="row bg-secondary">
-      <div class="col-md-12 bg-dark">Column1</div>
-    </div>
-    </div>
-</main>
+      </div>
+    </header>
+
+
     <script src="script.js"></script>
   </body>
 </html>
